@@ -328,6 +328,10 @@ cmd.add({"rejoin", "rj"}, {"rejoin", "Rejoin the game"}, function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/valssss/grsdhgdsh/main/sbvsdhbsdfvb", true))()
 end)
 
+cmd.add({"antilag", "antilagg"}, {"antilag", "Make the game looks like poo poo but high fps"}, function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/valssss/dsgsdfgs/main/qsfdqsfqsdf", true))()
+end)
+
 cmd.add({"unpinger", "unpingerr"}, {"unpinger", "Try to reduce your pings"}, function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/valssss/etgtesgdsg/main/fdsefsdg", true))()
 end)

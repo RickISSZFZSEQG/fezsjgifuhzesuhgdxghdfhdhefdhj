@@ -1108,6 +1108,18 @@ cmd.add({"clip", "c"}, {"clip", "Enable your player's collision"}, function()
 	lib.disconnect("noclip")
 end)
 
+cmd.add({"shutnazi"}, {"shutnazi", "Close NaziSploit"}, function()
+	game.CoreGui.ScreenGui:Destroy()
+end)
+
+cmd.add({"opennazi"}, {"opennazi", "Open NaziSploit"}, function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/valssss/dfghdfhdfhdfh/main/gsgdfghdsfg", true))()
+end)
+
+cmd.add({"pizzacandyauto"}, {"pizzacandyauto", "Execute Candy auto farm for Pizza place (must take bag first)"}, function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/valssss/Candy-Auto-Farm-Pizza-Place/main/Freeze", true))()
+end)
+
 cmd.add({"freecam", "fc", "fcam"}, {"freecam [speed]", "Enable free camera"}, function(speed)
 	if not speed then speed = 5 end
 	if connections["freecam"] then lib.disconnect("freecam") camera.CameraSubject = character 	wrap(function() character.PrimaryPart.Anchored = false end) end

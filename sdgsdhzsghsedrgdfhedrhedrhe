@@ -1120,6 +1120,14 @@ cmd.add({"pizzacandyauto"}, {"pizzacandyauto", "Execute Candy auto farm for Pizz
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/valssss/Candy-Auto-Farm-Pizza-Place/main/Freeze", true))()
 end)
 
+cmd.add({"r6coord"}, {"r6coord", "Print CFrame in console (R6)"}, function()
+	print(game.Players.LocalPlayer.Character.Torso.Position)
+end)
+
+cmd.add({"r15coord"}, {"r15coord", "Print CFrame in console (R15)"}, function()
+	print(game.Players.LocalPlayer.Character.HumanoidRootPart.Position)
+end)
+
 cmd.add({"freecam", "fc", "fcam"}, {"freecam [speed]", "Enable free camera"}, function(speed)
 	if not speed then speed = 5 end
 	if connections["freecam"] then lib.disconnect("freecam") camera.CameraSubject = character 	wrap(function() character.PrimaryPart.Anchored = false end) end

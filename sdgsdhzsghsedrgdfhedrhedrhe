@@ -328,6 +328,10 @@ cmd.add({"rejoin", "rj"}, {"rejoin", "Rejoin the game"}, function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/valssss/grsdhgdsh/main/sbvsdhbsdfvb", true))()
 end)
 
+cmd.add({"unpinger", "unpingerr"}, {"unpinger", "Try to reduce your pings"}, function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/valssss/etgtesgdsg/main/fdsefsdg", true))()
+end)
+
 cmd.add({"telekinesis", "tk", "tkg"}, {"telekinesis", "Enable telekinesis gun"}, function(placeid, playerName)
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/valssss/tele/main/esfs", true))()
 end)

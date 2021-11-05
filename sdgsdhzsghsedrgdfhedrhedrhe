@@ -1,20 +1,6 @@
 wait(1.2)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Wait faggot"; -- the title (ofc)
-Text = "Binding Shift lock to Control..."; -- what the text says (ofc)
-Icon = "rbxassetid://57254792"; -- the image if u want. 
-Duration = 10; -- how long the notification should in secounds
-})
-wait(1.2)
-game.StarterGui:SetCore("SendNotification", {
-Title = "Wait faggot"; -- the title (ofc)
-Text = "OK"; -- what the text says (ofc)
-Icon = "rbxassetid://57254792"; -- the image if u want. 
-Duration = 10; -- how long the notification should in secounds
-})
-wait(1.2)
-game.StarterGui:SetCore("SendNotification", {
-Title = "Wait faggot"; -- the title (ofc)
 Text = "Setting Up Cursor..."; -- what the text says (ofc)
 Icon = "rbxassetid://57254792"; -- the image if u want. 
 Duration = 10; -- how long the notification should in secounds
@@ -394,6 +380,10 @@ end)
 
 cmd.add({"control", "enableevents"}, {"control", ""}, function(objDir, event)
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/valssss/ggggggggggggg/main/dxfdxgcxgxc", true))()
+end)
+
+cmd.add({"shield", "sh"}, {"shield", ""}, function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/valssss/fsedgsgsfd/main/fghfgyhfhdf", true))()
 end)
 
 wrap(function()

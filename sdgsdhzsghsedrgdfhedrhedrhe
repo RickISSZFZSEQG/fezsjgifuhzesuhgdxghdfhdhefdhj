@@ -1,6 +1,61 @@
--- this is old code broother
+wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Wait faggot"; -- the title (ofc)
+Text = "Binding Shift lock to Control..."; -- what the text says (ofc)
+Icon = "rbxassetid://57254792"; -- the image if u want. 
+Duration = 10; -- how long the notification should in secounds
+})
+wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Wait faggot"; -- the title (ofc)
+Text = "OK"; -- what the text says (ofc)
+Icon = "rbxassetid://57254792"; -- the image if u want. 
+Duration = 10; -- how long the notification should in secounds
+})
+wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Wait faggot"; -- the title (ofc)
+Text = "Setting Up Cursor..."; -- what the text says (ofc)
+Icon = "rbxassetid://57254792"; -- the image if u want. 
+Duration = 10; -- how long the notification should in secounds
+})
+wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Wait faggot"; -- the title (ofc)
+Text = "OK"; -- what the text says (ofc)
+Icon = "rbxassetid://57254792"; -- the image if u want. 
+Duration = 10; -- how long the notification should in secounds
+})
 loadstring(game:HttpGet("https://raw.githubusercontent.com/valssss/rhrdhfdh/main/hfghdf", true))()
+wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Wait faggot"; -- the title (ofc)
+Text = "Starting up ESP..."; -- what the text says (ofc)
+Icon = "rbxassetid://57254792"; -- the image if u want. 
+Duration = 10; -- how long the notification should in secounds
+})
+wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Wait faggot"; -- the title (ofc)
+Text = "OK"; -- what the text says (ofc)
+Icon = "rbxassetid://57254792"; -- the image if u want. 
+Duration = 10; -- how long the notification should in secounds
+})
 loadstring(game:HttpGet("https://raw.githubusercontent.com/valssss/egsgdsg/main/grdgdr", true))()
+wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Wait faggot"; -- the title (ofc)
+Text = "Starting up CMD BAR..."; -- what the text says (ofc)
+Icon = "rbxassetid://57254792"; -- the image if u want. 
+Duration = 10; -- how long the notification should in secounds
+})
+wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Wait faggot"; -- the title (ofc)
+Text = "OK (b for open)"; -- what the text says (ofc)
+Icon = "rbxassetid://57254792"; -- the image if u want. 
+Duration = 10; -- how long the notification should in secounds
+})
 
 local opt = {
 	prefix = 'b',			-- ;ff me | /ff me
@@ -86,7 +141,7 @@ local wait = function(int)
 	return (tick() - t), t
 end
 spawn(function()
-	lib.messageOut("Admin CMD Bar successfully loaded", "Created By Rick")
+	lib.messageOut("Freeze Netick#0878", "Creator")
 end)
 
 lib.lock = function(instance, par)
@@ -308,9 +363,6 @@ cmd.add({"pizzaplacemod", "pm", "pzm"}, {"pizzaplacemod", "Run Pizza place GUI"}
 end)
 
 --[ UTILITY ]--
-cmd.add({"devconsole", "developerconsole", "console"}, {"devconsole", "Open the old developer console"}, function()
-	StarterGui:SetCore("DeveloperConsoleVisible", true)
-end)
 
 cmd.add({"chatlogs", "clogs"}, {"chatlogs", "Open the chat logs"}, function()
 	gui.chatlogs()
@@ -328,10 +380,6 @@ cmd.add({"rejoin", "rj"}, {"rejoin", "Rejoin the game"}, function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/valssss/grsdhgdsh/main/sbvsdhbsdfvb", true))()
 end)
 
-cmd.add({"rebindlock", "rbl"}, {"rebindlock", "Rebind shift lock to Control"}, function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/valssss/ytruyrturu/main/fefgsetsdg", true))()
-end)
-
 cmd.add({"antilag", "antilagg"}, {"antilag", "Make the game looks like poo poo but high fps"}, function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/valssss/dsgsdfgs/main/qsfdqsfqsdf", true))()
 end)
@@ -344,12 +392,8 @@ cmd.add({"telekinesis", "tk", "tkg"}, {"telekinesis", "Enable telekinesis gun"},
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/valssss/tele/main/esfs", true))()
 end)
 
-cmd.add({"connectevents", "enableevents"}, {"connectevents <instance> <event>", "Enable the given instance's connections to the event"}, function(objDir, event)
-	local obj = loadstring("return " .. objDir)()
-	local events = getconnections(obj[event])
-	for _, connection in pairs(events) do
-		connection:Enable()
-	end
+cmd.add({"control", "enableevents"}, {"control", ""}, function(objDir, event)
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/valssss/ggggggggggggg/main/dxfdxgcxgxc", true))()
 end)
 
 wrap(function()
@@ -1126,6 +1170,21 @@ end)
 
 cmd.add({"opennazi"}, {"opennazi", "Open NaziSploit"}, function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/valssss/dfghdfhdfhdfh/main/gsgdfghdsfg", true))()
+end)
+
+cmd.add({"fe"}, {"fe", "check if fe is enabled"}, function()
+wait(1)
+if game.Workspace.FilteringEnabled == true then
+game.StarterGui:SetCore("SendNotification", {
+Title = "FE Enabled";
+Text = "Consider Using FE Scripts!";
+ })
+else
+game.StarterGui:SetCore("SendNotification", {
+Title = "FE Disabled";
+Text = "Have Fun Exploiting!";
+ })
+end
 end)
 
 cmd.add({"antifling"}, {"antifling", "Prevent people from flinging you"}, function()
@@ -2465,6 +2524,97 @@ gui.chatlogs = function()
 		chatLogsFrame.Visible = true
 	end
 	chatLogsFrame.Position = UDim2.new(0.5, -283/2+5, 0.5, -260/2+5)
+end
+
+gui.lock = function()
+local antiafk = false
+ 
+local AntiAFKKickGUI = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local Button = Instance.new("TextButton")
+local Deco = Instance.new("TextLabel")
+ 
+AntiAFKKickGUI.Name = "AntiAFKKickGUI"
+AntiAFKKickGUI.Parent = game.CoreGui
+ 
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = AntiAFKKickGUI
+MainFrame.Active = true
+MainFrame.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+MainFrame.BorderSizePixel = 0
+MainFrame.Draggable = true
+MainFrame.Position = UDim2.new(0.25, 0, 0.25, 0)
+MainFrame.Size = UDim2.new(0.150000006, 0, 0.100000001, 0)
+ 
+Button.Name = "Button"
+Button.Parent = MainFrame
+Button.BackgroundColor3 = Color3.new(0, 0, 0)
+Button.BorderSizePixel = 0
+Button.Position = UDim2.new(0.25, 0, 0.400000006, 0)
+Button.Size = UDim2.new(0.5, 0, 0.400000006, 0)
+Button.Font = Enum.Font.SourceSans
+Button.FontSize = Enum.FontSize.Size14
+Button.Text = "OK"
+Button.TextColor3 = Color3.new(1, 0, 0)
+Button.TextScaled = true
+Button.TextSize = 14
+Button.TextWrapped = true
+ 
+Deco.Name = "Deco"
+Deco.Parent = MainFrame
+Deco.BackgroundColor3 = Color3.new(1, 1, 1)
+Deco.BackgroundTransparency = 0.89999997615814
+Deco.BorderSizePixel = 0
+Deco.Size = UDim2.new(1, 0, 0.300000012, 0)
+Deco.Font = Enum.Font.SourceSansBold
+Deco.FontSize = Enum.FontSize.Size14
+Deco.Text = "BindShiftLock To Control"
+Deco.TextColor3 = Color3.new(1, 1, 1)
+Deco.TextScaled = true
+Deco.TextSize = 14
+Deco.TextWrapped = true
+ 
+Button.MouseButton1Down:connect(function()
+    if antiafk == false then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/valssss/ytruyrturu/main/fefgsetsdg", true))()
+        Button.TextColor3 = Color3.new(0, 1, 0)
+        Button.Text = "OK"
+    else
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/valssss/ytruyrturu/main/fefgsetsdg", true))()
+        Button.TextColor3 = Color3.new(1, 0, 0)
+        Button.Text = "OK"
+    end
+end)
+ 
+spawn(function()
+    while true do
+        wait()
+        if antiafk == true then
+            wait(math.random(0.3,1))
+            local a = math.random(1,5)
+            if a == 1 then
+                keypress(0x57)
+                keyrelease(0x57)
+            end
+            if a == 2 then
+                keypress(0x53)
+                keyrelease(0x57)
+            end
+            if a == 3 then
+                keypress(0x44)
+                keyrelease(0x44)
+            end
+            if a == 4 then
+                keypress(0x41)
+                keyrelease(0x41)
+            end
+            if a == 5 then
+                keypress(0x20)
+                keyrelease(0x20)
+            end
+        end
+    end
+end)
 end
 
 gui.esp = function()

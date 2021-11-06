@@ -1,7 +1,7 @@
 wait(1.2)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Wait faggot"; -- the title (ofc)
-Text = "Setting Up Cursor..."; -- what the text says (ofc)
+Text = "Setting Cursor..."; -- what the text says (ofc)
 Icon = "rbxassetid://57254792"; -- the image if u want. 
 Duration = 10; -- how long the notification should in secounds
 })
@@ -372,6 +372,10 @@ end)
 
 cmd.add({"unpinger", "unpingerr"}, {"unpinger", "Try to reduce your pings"}, function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/valssss/etgtesgdsg/main/fdsefsdg", true))()
+end)
+
+cmd.add({"stkdestroy", "stkk"}, {"stkdestroy", "remove reanimations"}, function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/valssss/yhtrhrdghf/main/gdfgdg", true))()
 end)
 
 cmd.add({"telekinesis", "tk", "tkg"}, {"telekinesis", "Enable telekinesis gun"}, function(placeid, playerName)
